@@ -11,5 +11,10 @@ pipeline{
           echo 'this is deploying process'
         }
       }
+      stage ('Test'){
+        steps {
+            echo 'this is final step'
+        }
+      }
     }
 }
